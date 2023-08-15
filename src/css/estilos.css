@@ -1,0 +1,108 @@
+body {
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .textos {
+    display: flex;
+    flex-direction: column;
+    
+    color: #fff;
+    margin-left: 50px;
+    width: 100%;
+    
+} 
+
+ h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+P {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 11px;
+} 
+
+.container {
+    background-color: #fff;
+    margin: 50px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.form {
+    padding: 20px;
+}
+
+.formulario {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.formulario label {
+    display: inline-block;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.input-mensagem{
+    height: 100px;
+
+}
+
+button {
+    background-color: #3CCC87;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.formulario.error input {
+    border-color: #ff3b25;
+}
+
+.formulario.error a {
+    color: #ff3b25;
+    visibility: visible;
+}
+
+.formulario a {
+    position: absolute;
+    bottom: 9px;
+    left: 6px;
+    text-decoration: none;
+    visibility: hidden;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.formulario.valido input {
+    border-color: #3CCC87;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 15px;
+}
